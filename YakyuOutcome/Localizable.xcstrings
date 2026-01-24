@@ -1,0 +1,3486 @@
+{
+  "sourceLanguage" : "zh-Hant",
+  "strings" : {
+    "" : {
+
+    },
+    "  %@" : {
+
+    },
+    "  roll %lld/%lld, threshold %lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  擲骰 %1$lld/%2$lld，門檻 %3$lld"
+          }
+        }
+      }
+    },
+    " - " : {
+
+    },
+    "#%lld" : {
+
+    },
+    "%@ @ %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ @ %2$@"
+          }
+        }
+      }
+    },
+    "%@ • Inning %lld %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ • 第 %2$lld 局 %3$@"
+          }
+        }
+      }
+    },
+    "%@ batting • vs %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 打擊 • 對 %2$@"
+          }
+        }
+      }
+    },
+    "%@ vs %@ • %@ • %lld pitches" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 對 %2$@ • %3$@ • %4$lld 球"
+          }
+        }
+      }
+    },
+    "%@ vs %@ • %@ • %lld pitches • %lld-%lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 對 %2$@ • %3$@ • %4$lld 球 • %5$lld-%6$lld"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "• %@: %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "• %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "Add" : {
+
+    },
+    "Add Item" : {
+
+    },
+    "Add Players" : {
+
+    },
+    "Ambiguity Policies" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模糊判定規則"
+          }
+        }
+      }
+    },
+    "app.name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "實境模擬野球"
+          }
+        }
+      }
+    },
+    "Auto Game" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動全場"
+          }
+        }
+      }
+    },
+    "Auto Half" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動半局"
+          }
+        }
+      }
+    },
+    "Auto PA" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動打席"
+          }
+        }
+      }
+    },
+    "Away" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "客隊"
+          }
+        }
+      }
+    },
+    "B:" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壞:"
+          }
+        }
+      }
+    },
+    "Ball" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壞球"
+          }
+        }
+      }
+    },
+    "Baseball Match Sim" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "棒球比賽模擬"
+          }
+        }
+      }
+    },
+    "Bat %@ / Throw %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊 %@／投球 %@"
+          }
+        }
+      }
+    },
+    "Bats" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊"
+          }
+        }
+      }
+    },
+    "Batted Ball Distribution (sum≈1)" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊球分佈（總和約 1）"
+          }
+        }
+      }
+    },
+    "Batted Ball Type" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊球類型"
+          }
+        }
+      }
+    },
+    "Batter: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打者：%1$@"
+          }
+        }
+      }
+    },
+    "Batting: Swing / Contact" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊：揮棒／擊中"
+          }
+        }
+      }
+    },
+    "Called Strike" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "common.add" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增"
+          }
+        }
+      }
+    },
+    "common.cancel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "common.clear" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除"
+          }
+        }
+      }
+    },
+    "common.close" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
+          }
+        }
+      }
+    },
+    "common.delete" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
+          }
+        }
+      }
+    },
+    "common.done" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
+    },
+    "common.edit" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯"
+          }
+        }
+      }
+    },
+    "common.loading" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "載入中…"
+          }
+        }
+      }
+    },
+    "common.none" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無"
+          }
+        }
+      }
+    },
+    "common.off" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關"
+          }
+        }
+      }
+    },
+    "common.ok" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確定"
+          }
+        }
+      }
+    },
+    "common.on" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開"
+          }
+        }
+      }
+    },
+    "common.optional" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選填"
+          }
+        }
+      }
+    },
+    "common.required" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必填"
+          }
+        }
+      }
+    },
+    "common.reset" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
+    },
+    "common.save" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
+          }
+        }
+      }
+    },
+    "common.search" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋"
+          }
+        }
+      }
+    },
+    "CONTACT" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊中"
+          }
+        }
+      }
+    },
+    "Contact Check" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊中判定"
+          }
+        }
+      }
+    },
+    "Contact Outcome" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊球結果"
+          }
+        }
+      }
+    },
+    "Count" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球數"
+          }
+        }
+      }
+    },
+    "Create" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立"
+          }
+        }
+      }
+    },
+    "Create Default" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立預設"
+          }
+        }
+      }
+    },
+    "Create New Game" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立新比賽"
+          }
+        }
+      }
+    },
+    "Default Alignment" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預設站位"
+          }
+        }
+      }
+    },
+    "Defense" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守備"
+          }
+        }
+      }
+    },
+    "Defense & Alignment" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守備與站位"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
+    },
+    "Done Reorder" : {
+
+    },
+    "Double Play Attempt" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雙殺嘗試"
+          }
+        }
+      }
+    },
+    "DP" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雙殺"
+          }
+        }
+      }
+    },
+    "Ensure 9 Slots" : {
+
+    },
+    "ERROR" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失誤"
+          }
+        }
+      }
+    },
+    "Error Check" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失誤判定"
+          }
+        }
+      }
+    },
+    "Final" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
+        }
+      }
+    },
+    "FOUL" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "界外"
+          }
+        }
+      }
+    },
+    "Foul Ball" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "界外球"
+          }
+        }
+      }
+    },
+    "Foul Rate on Contact" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊中界外率"
+          }
+        }
+      }
+    },
+    "Foul vs In-Play" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "界外／進場判定"
+          }
+        }
+      }
+    },
+    "Game" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比賽"
+          }
+        }
+      }
+    },
+    "game.at_bat" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打席"
+          }
+        }
+      }
+    },
+    "game.away" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "客隊"
+          }
+        }
+      }
+    },
+    "game.balls" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壞球"
+          }
+        }
+      }
+    },
+    "game.base.first" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一壘"
+          }
+        }
+      }
+    },
+    "game.base.second" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "二壘"
+          }
+        }
+      }
+    },
+    "game.base.third" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三壘"
+          }
+        }
+      }
+    },
+    "game.bases" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壘包"
+          }
+        }
+      }
+    },
+    "game.batter" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打者"
+          }
+        }
+      }
+    },
+    "game.bottom" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下"
+          }
+        }
+      }
+    },
+    "game.end" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束比賽"
+          }
+        }
+      }
+    },
+    "game.errors" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失誤"
+          }
+        }
+      }
+    },
+    "game.hits" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安打"
+          }
+        }
+      }
+    },
+    "game.home" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主隊"
+          }
+        }
+      }
+    },
+    "game.inning" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "局"
+          }
+        }
+      }
+    },
+    "game.new" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立比賽"
+          }
+        }
+      }
+    },
+    "game.outs" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出局"
+          }
+        }
+      }
+    },
+    "game.pitcher" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投手"
+          }
+        }
+      }
+    },
+    "game.restart" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新開始"
+          }
+        }
+      }
+    },
+    "game.resume" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續比賽"
+          }
+        }
+      }
+    },
+    "game.runs" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分"
+          }
+        }
+      }
+    },
+    "game.score" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比分"
+          }
+        }
+      }
+    },
+    "game.start" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始比賽"
+          }
+        }
+      }
+    },
+    "game.strikes" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球"
+          }
+        }
+      }
+    },
+    "game.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比賽"
+          }
+        }
+      }
+    },
+    "game.top" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上"
+          }
+        }
+      }
+    },
+    "Games" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比賽"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        }
+      }
+    },
+    "HIT" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安打"
+          }
+        }
+      }
+    },
+    "Hit Check" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安打判定"
+          }
+        }
+      }
+    },
+    "Hit Type" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安打類型"
+          }
+        }
+      }
+    },
+    "Hitting Quality" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊品質"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主隊"
+          }
+        }
+      }
+    },
+    "Identity" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "身分"
+          }
+        }
+      }
+    },
+    "IN PLAY" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場"
+          }
+        }
+      }
+    },
+    "In Play: 1B" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：一壘安打"
+          }
+        }
+      }
+    },
+    "In Play: 2B" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：二壘安打"
+          }
+        }
+      }
+    },
+    "In Play: 3B" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：三壘安打"
+          }
+        }
+      }
+    },
+    "In Play: DP" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：雙殺"
+          }
+        }
+      }
+    },
+    "In Play: E" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：失誤上壘"
+          }
+        }
+      }
+    },
+    "In Play: FO" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：飛球出局"
+          }
+        }
+      }
+    },
+    "In Play: GO" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：滾地球出局"
+          }
+        }
+      }
+    },
+    "In Play: GO (FC 2B)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：滾地球（封殺二壘）"
+          }
+        }
+      }
+    },
+    "In Play: GO (Out at Home)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：滾地球（本壘出局）"
+          }
+        }
+      }
+    },
+    "In Play: GO (RBI, Out at 1B)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：滾地球（打點，本壘得分、打者一壘出局）"
+          }
+        }
+      }
+    },
+    "In Play: HR" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：全壘打"
+          }
+        }
+      }
+    },
+    "In Play: LO" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進場：平飛球出局"
+          }
+        }
+      }
+    },
+    "In Progress" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行中"
+          }
+        }
+      }
+    },
+    "IN ZONE" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶內"
+          }
+        }
+      }
+    },
+    "Infield-In GB Hit Multiplier" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "趨前守備滾地安打倍率"
+          }
+        }
+      }
+    },
+    "Inning %lld %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %1$lld 局 %2$@"
+          }
+        }
+      }
+    },
+    "Inning %lld %@  Score %lld-%lld  • %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %1$lld 局 %2$@  比分 %3$lld-%4$lld  • %5$@"
+          }
+        }
+      }
+    },
+    "Inning %lld %@ • %@ vs %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %1$lld 局 %2$@ • %3$@ 對 %4$@"
+          }
+        }
+      }
+    },
+    "Innings" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "局數"
+          }
+        }
+      }
+    },
+    "Item at %@" : {
+
+    },
+    "Last PA Outcome: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上一打席結果：%1$@"
+          }
+        }
+      }
+    },
+    "Lineup & Positions (9)" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打序與守位（9）"
+          }
+        }
+      }
+    },
+    "lineup.auto_fill" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動填滿 9 人"
+          }
+        }
+      }
+    },
+    "lineup.player" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球員"
+          }
+        }
+      }
+    },
+    "lineup.position" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守位"
+          }
+        }
+      }
+    },
+    "lineup.slot" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "棒次"
+          }
+        }
+      }
+    },
+    "lineup.swap" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交換"
+          }
+        }
+      }
+    },
+    "lineup.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打序設定"
+          }
+        }
+      }
+    },
+    "lineup.validation.duplicate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打序重複：同一球員被安排多次。"
+          }
+        }
+      }
+    },
+    "lineup.validation.missing" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打序未完成：請確認 1～9 棒都有球員。"
+          }
+        }
+      }
+    },
+    "Loading details…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "載入明細…"
+          }
+        }
+      }
+    },
+    "Log" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紀錄"
+          }
+        }
+      }
+    },
+    "Logs" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紀錄"
+          }
+        }
+      }
+    },
+    "logs.detail" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紀錄詳情"
+          }
+        }
+      }
+    },
+    "logs.empty" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚無紀錄。"
+          }
+        }
+      }
+    },
+    "logs.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比賽紀錄"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名稱"
+          }
+        }
+      }
+    },
+    "nav.about" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關於"
+          }
+        }
+      }
+    },
+    "nav.advanced" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進階"
+          }
+        }
+      }
+    },
+    "nav.back" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回"
+          }
+        }
+      }
+    },
+    "nav.help" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說明"
+          }
+        }
+      }
+    },
+    "nav.settings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        }
+      }
+    },
+    "New Game" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新比賽"
+          }
+        }
+      }
+    },
+    "NO" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "否"
+          }
+        }
+      }
+    },
+    "NO DP" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未形成雙殺"
+          }
+        }
+      }
+    },
+    "NO ERROR" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無失誤"
+          }
+        }
+      }
+    },
+    "No games yet. Create one." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚無比賽。建立一場吧。"
+          }
+        }
+      }
+    },
+    "NO HIT" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非安打"
+          }
+        }
+      }
+    },
+    "No lineup slots. Tap 'Ensure 9 Slots'." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚無打序欄位。點選「確保 9 個欄位」。"
+          }
+        }
+      }
+    },
+    "No players in roster yet." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名單尚無球員。"
+          }
+        }
+      }
+    },
+    "No RuleSet found." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到規則集。"
+          }
+        }
+      }
+    },
+    "OUT AT HOME" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本壘出局"
+          }
+        }
+      }
+    },
+    "OUT OF ZONE" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶外"
+          }
+        }
+      }
+    },
+    "Outcome: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果：%1$@"
+          }
+        }
+      }
+    },
+    "Outcome: %@ • Pitches: %lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果：%1$@ • 球數：%2$lld"
+          }
+        }
+      }
+    },
+    "Outcome: %@ • Pitches: %lld • Score %lld-%lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果：%1$@ • 球數：%2$lld • 比分 %3$lld-%4$lld"
+          }
+        }
+      }
+    },
+    "outcome.double" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "二壘安打"
+          }
+        }
+      }
+    },
+    "outcome.double_play" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雙殺"
+          }
+        }
+      }
+    },
+    "outcome.field_out" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出局（場內）"
+          }
+        }
+      }
+    },
+    "outcome.fielder_choice" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "野手選擇"
+          }
+        }
+      }
+    },
+    "outcome.hit_by_pitch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "觸身球"
+          }
+        }
+      }
+    },
+    "outcome.home_run" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全壘打"
+          }
+        }
+      }
+    },
+    "outcome.reached_on_error" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失誤上壘"
+          }
+        }
+      }
+    },
+    "outcome.single" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一壘安打"
+          }
+        }
+      }
+    },
+    "outcome.strikeout" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三振"
+          }
+        }
+      }
+    },
+    "outcome.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打席結果"
+          }
+        }
+      }
+    },
+    "outcome.triple" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三壘安打"
+          }
+        }
+      }
+    },
+    "outcome.walk" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保送"
+          }
+        }
+      }
+    },
+    "Outs" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出局"
+          }
+        }
+      }
+    },
+    "PA Detail" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打席細節"
+          }
+        }
+      }
+    },
+    "Passed Ball" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "捕逸"
+          }
+        }
+      }
+    },
+    "PASSED BALL" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "捕逸"
+          }
+        }
+      }
+    },
+    "Passed Ball share" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "捕逸占比"
+          }
+        }
+      }
+    },
+    "Pitch %lld: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第 %1$lld 球：%2$@"
+          }
+        }
+      }
+    },
+    "pitch.ball" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壞球"
+          }
+        }
+      }
+    },
+    "pitch.foul" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "界外球"
+          }
+        }
+      }
+    },
+    "pitch.in_play" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊球進場"
+          }
+        }
+      }
+    },
+    "pitch.strike_called" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球（未揮棒）"
+          }
+        }
+      }
+    },
+    "pitch.strike_swing" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球（揮空）"
+          }
+        }
+      }
+    },
+    "Pitcher: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投手：%1$@"
+          }
+        }
+      }
+    },
+    "Pitching" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投球"
+          }
+        }
+      }
+    },
+    "Play at Home" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本壘攻防"
+          }
+        }
+      }
+    },
+    "Play Log" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比賽紀錄"
+          }
+        }
+      }
+    },
+    "Player" : {
+
+    },
+    "player.bats.left" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左打"
+          }
+        }
+      }
+    },
+    "player.bats.right" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右打"
+          }
+        }
+      }
+    },
+    "player.bats.switch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左右開弓"
+          }
+        }
+      }
+    },
+    "player.field.bats" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊"
+          }
+        }
+      }
+    },
+    "player.field.name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "姓名"
+          }
+        }
+      }
+    },
+    "player.field.note" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "備註"
+          }
+        }
+      }
+    },
+    "player.field.number" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "背號"
+          }
+        }
+      }
+    },
+    "player.field.position.primary" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守位"
+          }
+        }
+      }
+    },
+    "player.field.team" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所屬球隊"
+          }
+        }
+      }
+    },
+    "player.field.throws" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投球"
+          }
+        }
+      }
+    },
+    "player.param.avg" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊率（AVG）"
+          }
+        }
+      }
+    },
+    "player.param.bb_rate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保送率（BB%）"
+          }
+        }
+      }
+    },
+    "player.param.br_aggr" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跑壘積極度（Aggressiveness）"
+          }
+        }
+      }
+    },
+    "player.param.catching" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "捕球/捕手能力（Catching）"
+          }
+        }
+      }
+    },
+    "player.param.double_share" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "二壘安打占比（2B Share）"
+          }
+        }
+      }
+    },
+    "player.param.fb" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飛球比例（FB%）"
+          }
+        }
+      }
+    },
+    "player.param.fielding" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接球/守備（Fielding）"
+          }
+        }
+      }
+    },
+    "player.param.gb" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "滾地球比例（GB%）"
+          }
+        }
+      }
+    },
+    "player.param.ground_induce" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "製造滾地能力（GB Induce）"
+          }
+        }
+      }
+    },
+    "player.param.hit_rate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安打機率（Hit Rate）"
+          }
+        }
+      }
+    },
+    "player.param.hr_share" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全壘打占比（HR Share）"
+          }
+        }
+      }
+    },
+    "player.param.k_rate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三振率（K%）"
+          }
+        }
+      }
+    },
+    "player.param.ld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平飛球比例（LD%）"
+          }
+        }
+      }
+    },
+    "player.param.o_contact" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶外接觸率（O-Contact）"
+          }
+        }
+      }
+    },
+    "player.param.o_swing" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶外揮棒率（O-Swing）"
+          }
+        }
+      }
+    },
+    "player.param.obp" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上壘率（OBP）"
+          }
+        }
+      }
+    },
+    "player.param.ops" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "攻擊指數（OPS）"
+          }
+        }
+      }
+    },
+    "player.param.pu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "內野高飛球比例（PU%）"
+          }
+        }
+      }
+    },
+    "player.param.slg" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長打率（SLG）"
+          }
+        }
+      }
+    },
+    "player.param.speed" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度（Speed）"
+          }
+        }
+      }
+    },
+    "player.param.steal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "盜壘能力（Steal）"
+          }
+        }
+      }
+    },
+    "player.param.throwing" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳球（Throwing）"
+          }
+        }
+      }
+    },
+    "player.param.triple_share" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三壘安打占比（3B Share）"
+          }
+        }
+      }
+    },
+    "player.param.whiff_induce" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "製造揮空能力（Whiff）"
+          }
+        }
+      }
+    },
+    "player.param.z_contact" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶內接觸率（Z-Contact）"
+          }
+        }
+      }
+    },
+    "player.param.z_swing" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶內揮棒率（Z-Swing）"
+          }
+        }
+      }
+    },
+    "player.param.zone_rate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進好球帶比例（Zone%）"
+          }
+        }
+      }
+    },
+    "player.section.battedball" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊球型態"
+          }
+        }
+      }
+    },
+    "player.section.fielding" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守備能力"
+          }
+        }
+      }
+    },
+    "player.section.hit_quality" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安打/長打傾向"
+          }
+        }
+      }
+    },
+    "player.section.hitting" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打擊能力"
+          }
+        }
+      }
+    },
+    "player.section.pitching" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投球能力"
+          }
+        }
+      }
+    },
+    "player.section.plate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選球與揮棒"
+          }
+        }
+      }
+    },
+    "player.section.running" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跑壘能力"
+          }
+        }
+      }
+    },
+    "player.throws.left" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左投"
+          }
+        }
+      }
+    },
+    "player.throws.right" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右投"
+          }
+        }
+      }
+    },
+    "Players" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球員"
+          }
+        }
+      }
+    },
+    "Players: %lld • Lineup: %lld" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球員：%1$lld • 打序：%2$lld"
+          }
+        }
+      }
+    },
+    "players.add" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增球員"
+          }
+        }
+      }
+    },
+    "players.delete.confirm.message" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此操作無法復原。"
+          }
+        }
+      }
+    },
+    "players.delete.confirm.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除球員？"
+          }
+        }
+      }
+    },
+    "players.duplicate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "複製球員"
+          }
+        }
+      }
+    },
+    "players.edit" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯球員"
+          }
+        }
+      }
+    },
+    "players.empty" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚無球員資料。"
+          }
+        }
+      }
+    },
+    "players.export" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匯出"
+          }
+        }
+      }
+    },
+    "players.import" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匯入"
+          }
+        }
+      }
+    },
+    "players.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球員資料庫"
+          }
+        }
+      }
+    },
+    "Pos" : {
+
+    },
+    "position.1B" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一壘"
+          }
+        }
+      }
+    },
+    "position.2B" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "二壘"
+          }
+        }
+      }
+    },
+    "position.3B" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三壘"
+          }
+        }
+      }
+    },
+    "position.C" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "捕手"
+          }
+        }
+      }
+    },
+    "position.CF" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中外野"
+          }
+        }
+      }
+    },
+    "position.DH" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指定打擊"
+          }
+        }
+      }
+    },
+    "position.LF" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左外野"
+          }
+        }
+      }
+    },
+    "position.P" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投手"
+          }
+        }
+      }
+    },
+    "position.RF" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右外野"
+          }
+        }
+      }
+    },
+    "position.SS" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游擊"
+          }
+        }
+      }
+    },
+    "Reorder" : {
+
+    },
+    "Reset" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
+    },
+    "Roster" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名單"
+          }
+        }
+      }
+    },
+    "Rules" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規則"
+          }
+        }
+      }
+    },
+    "rules.active" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前使用規則"
+          }
+        }
+      }
+    },
+    "rules.apply" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "套用規則"
+          }
+        }
+      }
+    },
+    "rules.default" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預設規則"
+          }
+        }
+      }
+    },
+    "rules.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規則設定"
+          }
+        }
+      }
+    },
+    "RuleSet" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規則集"
+          }
+        }
+      }
+    },
+    "Runner Aggressiveness" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跑壘積極度"
+          }
+        }
+      }
+    },
+    "S:" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好:"
+          }
+        }
+      }
+    },
+    "SAFE (RUN SCORES)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安全上壘（得分）"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
+          }
+        }
+      }
+    },
+    "Score %lld-%lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比分 %1$lld-%2$lld"
+          }
+        }
+      }
+    },
+    "Seed: %lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "種子：%1$lld"
+          }
+        }
+      }
+    },
+    "Select" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇"
+          }
+        }
+      }
+    },
+    "Select an item" : {
+
+    },
+    "Shift GB Hit Multiplier" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守備佈陣滾地安打倍率"
+          }
+        }
+      }
+    },
+    "Show detailed trace" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示詳細過程"
+          }
+        }
+      }
+    },
+    "sim.fast_forward" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快速模擬"
+          }
+        }
+      }
+    },
+    "sim.full_game" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模擬整場比賽"
+          }
+        }
+      }
+    },
+    "sim.half_inning" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模擬半局"
+          }
+        }
+      }
+    },
+    "sim.next_pa" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一個打席"
+          }
+        }
+      }
+    },
+    "sim.next_pitch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一球"
+          }
+        }
+      }
+    },
+    "sim.pause" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫停"
+          }
+        }
+      }
+    },
+    "sim.show_only_outcome" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只顯示結果"
+          }
+        }
+      }
+    },
+    "sim.show_trace" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示詳細推導"
+          }
+        }
+      }
+    },
+    "sim.step_by_step" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "逐步顯示"
+          }
+        }
+      }
+    },
+    "sim.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模擬"
+          }
+        }
+      }
+    },
+    "SWING" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揮棒"
+          }
+        }
+      }
+    },
+    "SWING & MISS" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揮空"
+          }
+        }
+      }
+    },
+    "Swing Decision" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揮棒判定"
+          }
+        }
+      }
+    },
+    "Swinging Strike" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揮空"
+          }
+        }
+      }
+    },
+    "Swinging Strike (K)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揮空三振"
+          }
+        }
+      }
+    },
+    "tab.game" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比賽"
+          }
+        }
+      }
+    },
+    "tab.logs" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紀錄"
+          }
+        }
+      }
+    },
+    "tab.players" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球員"
+          }
+        }
+      }
+    },
+    "tab.rules" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規則"
+          }
+        }
+      }
+    },
+    "tab.teams" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球隊"
+          }
+        }
+      }
+    },
+    "TAKE" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放過"
+          }
+        }
+      }
+    },
+    "Team" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球隊"
+          }
+        }
+      }
+    },
+    "Teams" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球隊"
+          }
+        }
+      }
+    },
+    "teams.add" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增球隊"
+          }
+        }
+      }
+    },
+    "teams.edit" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯球隊"
+          }
+        }
+      }
+    },
+    "teams.empty" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚無球隊。"
+          }
+        }
+      }
+    },
+    "teams.lineup" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打序"
+          }
+        }
+      }
+    },
+    "teams.roster" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球隊名單"
+          }
+        }
+      }
+    },
+    "teams.starting_pitcher" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先發投手"
+          }
+        }
+      }
+    },
+    "teams.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "球隊"
+          }
+        }
+      }
+    },
+    "Throw Home Decision" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是否傳本壘"
+          }
+        }
+      }
+    },
+    "Throw Home Policy" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳本壘策略"
+          }
+        }
+      }
+    },
+    "Throws" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投球手"
+          }
+        }
+      }
+    },
+    "Tip: Add at least 9 lineup players to simulate games." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示：至少加入 9 位打序球員才能模擬。"
+          }
+        }
+      }
+    },
+    "trace.chosen" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "採用"
+          }
+        }
+      }
+    },
+    "trace.probability" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機率"
+          }
+        }
+      }
+    },
+    "trace.reason" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原因"
+          }
+        }
+      }
+    },
+    "trace.roll" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擲骰值"
+          }
+        }
+      }
+    },
+    "trace.section.branch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分支路徑"
+          }
+        }
+      }
+    },
+    "trace.section.calculation" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計算過程"
+          }
+        }
+      }
+    },
+    "trace.section.final" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最終結果"
+          }
+        }
+      }
+    },
+    "trace.section.inputs" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輸入參數"
+          }
+        }
+      }
+    },
+    "trace.section.rules" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規則修正"
+          }
+        }
+      }
+    },
+    "trace.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機率模型細節"
+          }
+        }
+      }
+    },
+    "TRIGGERED" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "觸發"
+          }
+        }
+      }
+    },
+    "Try Double Play if possible" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可行時嘗試雙殺"
+          }
+        }
+      }
+    },
+    "Two-strike foul keeps 2 strikes" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "兩好球界外仍算兩好球"
+          }
+        }
+      }
+    },
+    "Unassigned" : {
+
+    },
+    "Wild Pitch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暴投"
+          }
+        }
+      }
+    },
+    "WILD PITCH" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暴投"
+          }
+        }
+      }
+    },
+    "WP / PB (runners on, out of zone)" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暴投／捕逸（有人在壘、出界）"
+          }
+        }
+      }
+    },
+    "WP vs PB" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暴投／捕逸判斷"
+          }
+        }
+      }
+    },
+    "WP/PB chance on SWING" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "揮棒時暴投／捕逸機率"
+          }
+        }
+      }
+    },
+    "WP/PB chance on TAKE" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不揮棒時暴投／捕逸機率"
+          }
+        }
+      }
+    },
+    "WP/PB Check" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暴投／捕逸判定"
+          }
+        }
+      }
+    },
+    "Zone Check" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好球帶判定"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
