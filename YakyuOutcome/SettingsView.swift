@@ -11,12 +11,12 @@ struct SettingsView: View {
                 RuleEditorView(ruleSet: rs)
             } else {
                 VStack(spacing: 12) {
-                    Text("No RuleSet found.")
-                    Button("Create Default") {
+                    Text("找不到規則設定。")
+                    Button("建立預設規則") {
                         modelContext.insert(RuleSet())
                     }
                 }
-                .navigationTitle("Rules")
+                .navigationTitle("規則")
             }
         }
     }
@@ -27,10 +27,10 @@ struct RuleEditorView: View {
 
     var body: some View {
         Form {
-            Section("General") {
-                TextField("Name", text: $ruleSet.name)
+            Section("一般") {
+                TextField("名稱", text: $ruleSet.name)
                 HStack {
-                    Text("Innings")
+                    Text("局數")
                     Spacer()
                     TextField("", value: $ruleSet.innings, format: .number)
                         .keyboardType(.numberPad)
@@ -43,41 +43,57 @@ struct RuleEditorView: View {
                 }
             }
 
-            Section("Count") {
-                Toggle("Two-strike foul keeps 2 strikes", isOn: $ruleSet.twoStrikeFoulKeepsTwoStrikes)
+            Section("球數") {
+                Toggle("兩好球後界外球維持兩好球", isOn: $ruleSet.twoStrikeFoulKeepsTwoStrikes)
             }
 
-            Section("Contact Outcome") {
-                NumericRow(title: "Foul Rate on Contact", value: $ruleSet.foulRateOnContact)
+            Section("擊中後結果") {
+                NumericRow(title: "擊中後變界外球機率", value: $ruleSet.foulRateOnContact)
             }
 
-            Section("WP / PB (runners on, out of zone)") {
-                NumericRow(title: "WP/PB chance on TAKE", value: $ruleSet.wildPitchChanceOnTake)
-                NumericRow(title: "WP/PB chance on SWING", value: $ruleSet.wildPitchChanceOnSwing)
-                NumericRow(title: "Passed Ball share", value: $ruleSet.passedBallShare)
+            Section("暴投 / 捕逸（有人上壘且壞球）") {
+                NumericRow(title: "目送時 WP/PB 機率", value: $ruleSet.wildPitchChanceOnTake)
+                NumericRow(title: "揮棒時 WP/PB 機率", value: $ruleSet.wildPitchChanceOnSwing)
+                NumericRow(title: "捕逸佔比", value: $ruleSet.passedBallShare)
             }
 
-            Section("Defense & Alignment") {
-                Picker("Default Alignment", selection: $ruleSet.defaultAlignment) {
+            Section("守備與站位") {
+                Picker("預設內野站位", selection: $ruleSet.defaultAlignment) {
                     ForEach(InfieldAlignment.allCases) { a in
-                        Text(a.rawValue).tag(a)
+                        Text(alignmentLabel(a)).tag(a)
                     }
                 }
-                NumericRow(title: "Shift GB Hit Multiplier", value: $ruleSet.shiftGBHitMultiplier)
-                NumericRow(title: "Infield-In GB Hit Multiplier", value: $ruleSet.infieldInGBHitMultiplier)
+                NumericRow(title: "佈陣時滾地安打倍率", value: $ruleSet.shiftGBHitMultiplier)
+                NumericRow(title: "趨前時滾地安打倍率", value: $ruleSet.infieldInGBHitMultiplier)
             }
 
-            Section("Ambiguity Policies") {
-                Picker("Throw Home Policy", selection: $ruleSet.throwHomePolicy) {
+            Section("策略規則") {
+                Picker("本壘傳球策略", selection: $ruleSet.throwHomePolicy) {
                     ForEach(ThrowHomePolicy.allCases) { p in
-                        Text(p.rawValue).tag(p)
+                        Text(throwHomePolicyLabel(p)).tag(p)
                     }
                 }
-                NumericRow(title: "Runner Aggressiveness", value: $ruleSet.runnerAggressiveness)
-                Toggle("Try Double Play if possible", isOn: $ruleSet.tryDoublePlayPolicy)
+                NumericRow(title: "跑壘積極度", value: $ruleSet.runnerAggressiveness)
+                Toggle("可行時優先嘗試雙殺", isOn: $ruleSet.tryDoublePlayPolicy)
             }
         }
-        .navigationTitle("Rules")
+        .navigationTitle("規則")
+    }
+
+    private func alignmentLabel(_ alignment: InfieldAlignment) -> String {
+        switch alignment {
+        case .normal: return "標準站位"
+        case .shiftLeft: return "左打佈陣"
+        case .shiftRight: return "右打佈陣"
+        case .infieldIn: return "內野趨前"
+        }
+    }
+
+    private func throwHomePolicyLabel(_ policy: ThrowHomePolicy) -> String {
+        switch policy {
+        case .never: return "不傳本壘"
+        case .always: return "永遠傳本壘"
+        case .situational: return "依情境判斷"
+        }
     }
 }
-

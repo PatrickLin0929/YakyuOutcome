@@ -167,6 +167,14 @@ final class BaseballEngine {
             // InPlay outcome already applied inside simulateSinglePitch
         }
 
+        // Snapshot this PA's game context BEFORE possible half/inning transition.
+        let logInning = state.inning
+        let logHalf = state.half
+        let logAwayScore = state.awayScore
+        let logHomeScore = state.homeScore
+        let logBases = state.bases
+        let logOuts = state.outs
+
         // Walk-off: bottom of last inning, home takes lead immediately ends game
         let isWalkOff = (state.half == .bottom &&
                          state.inning == rules.innings &&
@@ -210,20 +218,24 @@ final class BaseballEngine {
         game.setState(state)
 
         // Log PA (one line per PA)
-        let offenseName = (state.half == .top) ? away.name : home.name
-        let defenseName = (state.half == .top) ? home.name : away.name
+        let offenseName = offense.name
+        let defenseName = defense.name
         var scoredPitches = pitches
         if var last = scoredPitches.last {
             last.trace.append(TraceStep(
                 title: "Score Snapshot",
                 details: [
-                    "awayScore": "\(state.awayScore)",
-                    "homeScore": "\(state.homeScore)"
+                    "awayScore": "\(logAwayScore)",
+                    "homeScore": "\(logHomeScore)",
+                    "bases": "\(logBases)",
+                    "outs": "\(logOuts)",
+                    "inning": "\(logInning)",
+                    "half": logHalf.rawValue
                 ],
                 roll: 0,
                 range: 0,
                 threshold: 0,
-                picked: "\(state.awayScore)-\(state.homeScore)"
+                picked: "\(logAwayScore)-\(logHomeScore) | B:\(logBases)"
             ))
             scoredPitches[scoredPitches.count - 1] = last
         }
@@ -231,8 +243,8 @@ final class BaseballEngine {
 
         let log = PlayLog(
             gameId: game.id,
-            inning: max(1, state.inning),
-            half: state.half,
+            inning: max(1, logInning),
+            half: logHalf,
             offenseTeam: offenseName,
             defenseTeam: defenseName,
             batterName: batter.name,

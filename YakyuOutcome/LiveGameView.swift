@@ -17,7 +17,7 @@ struct LiveGameView: View {
 
     var body: some View {
         let state = game.getState()
-        let filteredLogs = logs.filter { $0.gameId == game.id }.sorted { $0.timestamp > $1.timestamp }
+        let filteredLogs = logs.filter { $0.gameId == game.id }.sorted { $0.timestamp < $1.timestamp }
         let statusLabel = game.status == .finished ? localized("Final") : localized("In Progress")
 
         ZStack {
@@ -55,6 +55,12 @@ struct LiveGameView: View {
                                 .font(.title3).bold()
                                 .padding(.horizontal)
 
+                            HStack(spacing: 8) {
+                                statChip(title: localized("Inning"), value: "\(state.inning) \(halfLabel(state.half))", tint: .indigo)
+                                statChip(title: localized("Score"), value: "\(state.awayScore)-\(state.homeScore)", tint: .green)
+                            }
+                                .padding(.horizontal)
+
                             if showTrace {
                                 TracePAView(pa: lastPA)
                                     .padding(.horizontal)
@@ -69,24 +75,28 @@ struct LiveGameView: View {
                             .font(.title3).bold()
                             .padding(.horizontal)
 
-                        ForEach(filteredLogs.prefix(50)) { log in
-                            NavigationLink {
-                                LogDetailView(log: log)
-                            } label: {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(localizedFormat("Inning %lld %@ • %@ vs %@", log.inning, halfLabel(log.half, includeArrow: false), log.batterName, log.pitcherName))
+                        ForEach(Array(filteredLogs.enumerated()), id: \.element.id) { index, entry in
+                            let log = entry
+                            let showHalfHeader = index == 0
+                                || filteredLogs[index - 1].inning != log.inning
+                                || filteredLogs[index - 1].half != log.half
+
+                            if showHalfHeader {
+                                Text(localizedFormat("Inning %lld %@", log.inning, halfLabel(log.half)))
                                     .font(.headline)
-                                HStack(spacing: 6) {
-                                    Text(localizedFormat("Outcome: %@ • Pitches: %lld", log.paOutcome, log.pitchesCount))
-                                    if let score = scoreSnapshot(for: log) {
-                                        Text(localizedFormat("Score %lld-%lld", score.away, score.home))
-                                    }
-                                }
-                                    .font(.subheadline)
-                                    .foregroundStyle(.secondary)
+                                    .padding(.horizontal)
+                                    .padding(.top, 6)
                             }
-                                .padding(.horizontal)
-                                .padding(.vertical, 8)
+
+                            if showTrace {
+                                NavigationLink {
+                                    LogDetailView(log: log)
+                                } label: {
+                                    playLogCard(log: log)
+                                }
+                                .buttonStyle(.plain)
+                            } else {
+                                playLogCard(log: log)
                             }
                         }
                     }
@@ -253,6 +263,56 @@ struct LiveGameView: View {
     private func playCelebrationSound() {
         AudioServicesPlaySystemSound(1109)
     }
+
+    @ViewBuilder
+    private func playLogCard(log: PlayLog) -> some View {
+        let snapshot = gameSnapshot(for: log)
+        let scoreText = snapshot.map { "\($0.away)-\($0.home)" } ?? "--"
+        let basesText = snapshot.map { baseStateLabel($0.bases) } ?? localized("Unknown")
+
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 8) {
+                statChip(
+                    title: localized("Inning"),
+                    value: "\(log.inning) \(halfLabel(log.half, includeArrow: false))",
+                    tint: .indigo
+                )
+                statChip(title: localized("Score"), value: scoreText, tint: .green)
+                statChip(title: localized("Bases"), value: basesText, tint: .blue)
+                statChip(title: localized("Pitches"), value: "\(log.pitchesCount)", tint: .orange)
+            }
+
+                Text(localizedFormat("Outcome: %@", log.paOutcome))
+                    .font(.headline)
+                    .foregroundStyle(.primary)
+
+            Text(localizedFormat("%@ vs %@ • %@ / %@", log.offenseTeam, log.defenseTeam, log.batterName, log.pitcherName))
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color(.secondarySystemBackground))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .padding(.horizontal)
+    }
+
+    @ViewBuilder
+    private func statChip(title: String, value: String, tint: Color) -> some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(title)
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+            Text(value)
+                .font(.subheadline)
+                .fontWeight(.semibold)
+                .foregroundStyle(.primary)
+        }
+        .padding(.horizontal, 8)
+        .padding(.vertical, 6)
+        .background(tint.opacity(0.15))
+        .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
 }
 
 // MARK: - Log Detail
@@ -274,6 +334,10 @@ struct LogDetailView: View {
                     .font(.headline)
                 if let score = scoreSnapshot(for: log) {
                     Text(localizedFormat("Score %lld-%lld", score.away, score.home))
+                        .foregroundStyle(.secondary)
+                }
+                if let snapshot = gameSnapshot(for: log) {
+                    Text(localizedFormat("Bases: %@", baseStateLabel(snapshot.bases)))
                         .foregroundStyle(.secondary)
                 }
 
@@ -369,18 +433,39 @@ private func halfLabel(_ half: HalfInning, includeArrow: Bool = true) -> String 
 }
 
 private func scoreSnapshot(for log: PlayLog) -> (away: Int, home: Int)? {
+    guard let snapshot = gameSnapshot(for: log) else { return nil }
+    return (snapshot.away, snapshot.home)
+}
+
+private func gameSnapshot(for log: PlayLog) -> (away: Int, home: Int, bases: Int)? {
     guard let pa = BaseballEngine.decodePAResult(log.detailJSON) else { return nil }
     guard let last = pa.pitches.last else { return nil }
     for step in last.trace.reversed() {
         if step.title == "Score Snapshot" {
             let away = Int(step.details["awayScore"] ?? "")
             let home = Int(step.details["homeScore"] ?? "")
+            let bases = Int(step.details["bases"] ?? "") ?? 0
             if let away, let home {
-                return (away, home)
+                return (away, home, bases)
             }
         }
     }
     return nil
+}
+
+private func baseStateLabel(_ bases: Int) -> String {
+    let on1 = (bases & 1) != 0
+    let on2 = (bases & 2) != 0
+    let on3 = (bases & 4) != 0
+
+    if !on1 && !on2 && !on3 { return localized("Empty") }
+    if on1 && on2 && on3 { return localized("Loaded") }
+
+    var occupied: [String] = []
+    if on1 { occupied.append(localized("1B")) }
+    if on2 { occupied.append(localized("2B")) }
+    if on3 { occupied.append(localized("3B")) }
+    return occupied.joined(separator: " + ")
 }
 
 

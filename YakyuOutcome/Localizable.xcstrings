@@ -101,6 +101,7 @@
 
     },
     "Ambiguity Policies" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -196,6 +197,7 @@
       }
     },
     "Bat %@ / Throw %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -206,6 +208,7 @@
       }
     },
     "Bats" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -216,6 +219,7 @@
       }
     },
     "Batted Ball Distribution (sum≈1)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -248,6 +252,7 @@
       }
     },
     "Batting: Swing / Contact" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -488,6 +493,7 @@
       }
     },
     "Contact Outcome" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -518,6 +524,7 @@
       }
     },
     "Create Default" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -538,6 +545,7 @@
       }
     },
     "Default Alignment" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -548,6 +556,7 @@
       }
     },
     "Defense" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -558,6 +567,7 @@
       }
     },
     "Defense & Alignment" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -978,6 +988,7 @@
       }
     },
     "General" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -1021,6 +1032,7 @@
       }
     },
     "Hitting Quality" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -1041,6 +1053,7 @@
       }
     },
     "Identity" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -1260,6 +1273,7 @@
       }
     },
     "Innings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -1596,6 +1610,7 @@
       }
     },
     "No RuleSet found." : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -1924,6 +1939,7 @@
       }
     },
     "Pitching" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -3221,6 +3237,7 @@
       }
     },
     "Throw Home Policy" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -3231,6 +3248,7 @@
       }
     },
     "Throws" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -3372,6 +3390,7 @@
       }
     },
     "Try Double Play if possible" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -3382,6 +3401,7 @@
       }
     },
     "Two-strike foul keeps 2 strikes" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -3417,6 +3437,7 @@
       }
     },
     "WP / PB (runners on, out of zone)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
@@ -3480,6 +3501,103 @@
           }
         }
       }
+    },
+    "一般" : {
+
+    },
+    "傳球" : {
+
+    },
+    "儲存" : {
+
+    },
+    "兩好球後界外球維持兩好球" : {
+
+    },
+    "取消" : {
+
+    },
+    "可行時優先嘗試雙殺" : {
+
+    },
+    "名稱" : {
+
+    },
+    "基本資料" : {
+
+    },
+    "姓名" : {
+
+    },
+    "守備" : {
+
+    },
+    "守備與站位" : {
+
+    },
+    "完成" : {
+
+    },
+    "局數" : {
+
+    },
+    "建立預設規則" : {
+
+    },
+    "打擊" : {
+
+    },
+    "打擊 %@ / 傳球 %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "打擊 %1$@ / 傳球 %2$@"
+          }
+        }
+      }
+    },
+    "打擊：揮棒 / 擊中" : {
+
+    },
+    "找不到規則設定。" : {
+
+    },
+    "投球" : {
+
+    },
+    "擊中後結果" : {
+
+    },
+    "擊球型態分布（總和約為 1）" : {
+
+    },
+    "新增" : {
+
+    },
+    "暴投 / 捕逸（有人上壘且壞球）" : {
+
+    },
+    "本壘傳球策略" : {
+
+    },
+    "球員" : {
+
+    },
+    "球數" : {
+
+    },
+    "策略規則" : {
+
+    },
+    "規則" : {
+
+    },
+    "長打能力" : {
+
+    },
+    "預設內野站位" : {
+
     }
   },
   "version" : "1.0"

@@ -9,60 +9,75 @@ struct PlayerEditorView: View {
 
     var body: some View {
         Form {
-            Section("Identity") {
-                TextField("Name", text: $player.name)
-                Picker("Bats", selection: $player.bats) {
+            Section("基本資料") {
+                TextField("姓名", text: $player.name)
+                Picker("打擊", selection: $player.bats) {
                     ForEach(BatHand.allCases) { v in
-                        Text(v.rawValue).tag(v)
+                        Text(batHandLabel(v)).tag(v)
                     }
                 }
-                Picker("Throws", selection: $player.throwsHand) {
+                Picker("傳球", selection: $player.throwsHand) {
                     ForEach(ThrowHand.allCases) { v in
-                        Text(v.rawValue).tag(v)
+                        Text(throwHandLabel(v)).tag(v)
                     }
                 }
             }
 
-            Section("Batting: Swing / Contact") {
-                NumericRow(title: "Z-Swing", value: $player.zSwing)
-                NumericRow(title: "O-Swing", value: $player.oSwing)
-                NumericRow(title: "Z-Contact", value: $player.zContact)
-                NumericRow(title: "O-Contact", value: $player.oContact)
+            Section("打擊：揮棒 / 擊中") {
+                NumericRow(title: "好球帶揮棒率", value: $player.zSwing)
+                NumericRow(title: "壞球帶揮棒率", value: $player.oSwing)
+                NumericRow(title: "好球帶擊中率", value: $player.zContact)
+                NumericRow(title: "壞球帶擊中率", value: $player.oContact)
             }
 
-            Section("Batted Ball Distribution (sum≈1)") {
-                NumericRow(title: "GB Rate", value: $player.gbRate)
-                NumericRow(title: "FB Rate", value: $player.fbRate)
-                NumericRow(title: "LD Rate", value: $player.ldRate)
-                NumericRow(title: "PU Rate", value: $player.puRate)
+            Section("擊球型態分布（總和約為 1）") {
+                NumericRow(title: "滾地球比例 (GB)", value: $player.gbRate)
+                NumericRow(title: "飛球比例 (FB)", value: $player.fbRate)
+                NumericRow(title: "平飛球比例 (LD)", value: $player.ldRate)
+                NumericRow(title: "高飛球比例 (PU)", value: $player.puRate)
             }
 
-            Section("Hitting Quality") {
-                NumericRow(title: "Hit Rate", value: $player.hitRate)
-                NumericRow(title: "HR Share (air hits)", value: $player.hrShare)
-                NumericRow(title: "2B Share (air hits)", value: $player.doubleShare)
-                NumericRow(title: "3B Share (air hits)", value: $player.tripleShare)
-                NumericRow(title: "Speed", value: $player.speed)
+            Section("長打能力") {
+                NumericRow(title: "安打率", value: $player.hitRate)
+                NumericRow(title: "全壘打比例（高飛/平飛）", value: $player.hrShare)
+                NumericRow(title: "二壘打比例（高飛/平飛）", value: $player.doubleShare)
+                NumericRow(title: "三壘打比例（高飛/平飛）", value: $player.tripleShare)
+                NumericRow(title: "速度", value: $player.speed)
             }
 
-            Section("Pitching") {
-                NumericRow(title: "Zone Rate", value: $player.zoneRate)
-                NumericRow(title: "Whiff Induce", value: $player.whiffInduce)
+            Section("投球") {
+                NumericRow(title: "進好球帶機率", value: $player.zoneRate)
+                NumericRow(title: "誘導揮空能力", value: $player.whiffInduce)
             }
 
-            Section("Defense") {
-                NumericRow(title: "Fielding", value: $player.fielding)
-                NumericRow(title: "Throwing", value: $player.throwing)
-                NumericRow(title: "Catching", value: $player.catching)
+            Section("守備") {
+                NumericRow(title: "守備能力", value: $player.fielding)
+                NumericRow(title: "傳球能力", value: $player.throwing)
+                NumericRow(title: "捕逸/接捕能力", value: $player.catching)
             }
 
             if isNew {
                 Section {
-                    Button("Done") { dismiss() }
+                    Button("完成") { dismiss() }
                 }
             }
         }
-        .navigationTitle(isNew ? "New Player" : player.name)
+        .navigationTitle(isNew ? "新球員" : player.name)
+    }
+
+    private func batHandLabel(_ hand: BatHand) -> String {
+        switch hand {
+        case .right: return "右打"
+        case .left: return "左打"
+        case .switchH: return "左右開弓"
+        }
+    }
+
+    private func throwHandLabel(_ hand: ThrowHand) -> String {
+        switch hand {
+        case .right: return "右投"
+        case .left: return "左投"
+        }
     }
 }
 
